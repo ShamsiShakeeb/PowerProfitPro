@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Saving Pro</title>
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="logo.jpg">
+    <style>
+        /* Custom CSS for styling */
+        .product-card {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .product-image {
+            max-width: 100%;
+        }
+    </style>
+
+    <style>
+        /* Custom CSS for styling */
+        .product-card {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .product-image {
+            max-width: 100%;
+        }
+
+        /* Top navigation bar styling */
+        .top-navbar {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .cover-image {
+            background-image: url('cover-image.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 300px;
+            /* Adjust the height as needed */
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .cover-heading {
+            font-size: 36px;
+        }
+
+        .cover-subheading {
+            font-size: 24px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg top-navbar">
+        <a class="navbar-brand" href="#">Power Profits Pro</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sliding Cover Image -->
+    <div class="cover-image">
+        <div class="cover-heading">Welcome to Power Profits Pro</div>
+        <div class="cover-subheading">Explore Our Latest Products. <br/> Contact: +8801973084875</div>
+
+    </div>
+
+    <div class="container mt-3">
+        
+        <div class="row">
+            <!-- Product 1 -->
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="powersaver.jpg" alt="Product 1" class="product-image">
+                    <h2>Smart Power Saver</h2>
+                    <p>Smart Power Saver Home Energy Saver Save Electricity Bills Equipment</p>
+                    <p><strong>Price: $1.25 / 138 bdt</strong></p>
+                  
+                    <!-- "Details" button to open the modal -->
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#product1Modal">Details</button>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <!-- <div class="col-md-4">
+                <div class="product-card">
+                    <img src="product2.jpg" alt="Product 2" class="product-image">
+                    <h2>Product 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p><strong>Price: $29.99</strong></p>
+                   
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#product2Modal">Details</button>
+                </div>
+            </div> -->
+
+          
+        </div>
+    </div>
+
+    <!-- Modals for Product Details -->
+    <!-- Product 1 Modal -->
+    <div class="modal fade" id="product1Modal" tabindex="-1" role="dialog" aria-labelledby="product1ModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="product1ModalLabel">Smart Power Saver</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="powersaver.jpg" alt="Product 1" class="product-image">
+                    <p><strong>Price: $1.25 / 138 bdt</strong></p>
+                    <p>Smart Power Saver Home Energy Saver Save Electricity Bills Equipment</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product 2 Modal -->
+    <!-- (similar modals for other products) -->
+
+
+    <!-- Add Bootstrap JavaScript (optional, for certain components) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
